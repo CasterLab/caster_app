@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>caster_app</name>
-  <version>1.1.0</version>
-  <description>The caster_app package</description>
+  <version>2.1.0</version>
+  <description>ROS pakcage for Caster application</description>
 
-  <maintainer email="ye@iquotient-robotics.com">Ye Tian</maintainer>
+  <maintainer email="ye.tian@iquotient-robotics.com">Ye Tian</maintainer>
 
   <license>MIT</license>
 
-  <url type="website">https://github.com/CasterLab/caster</url>
-  <url type="repository">https://github.com/CasterLab/caster</url>
-  <url type="bugtracker">https://github.com/CasterLab/caster/issues</url>
+  <url type="website">https://github.com/CasterLab/caster_app</url>
+  <url type="repository">https://github.com/CasterLab/caster_app</url>
+  <url type="bugtracker">https://github.com/CasterLab/caster_app/issues</url>
 
-  <author email="ye@iquotient-robotics.com">Ye Tian</author>
+  <author email="ye.tian@iquotient-robotics.com">Ye Tian</author>
 
   <build_depend>roslaunch</build_depend>
   <buildtool_depend>catkin</buildtool_depend>
@@ -26,7 +26,7 @@
 
   <depend>python-numpy</depend>
   <depend>python-sklearn</depend>
-  
+
   <depend>caster_base</depend>
   <depend>caster_navigation</depend>
 
